@@ -11,5 +11,10 @@
         "silex/silex": "~2.0",
         "mtymek/mini-url": "^1.0",
         "moust/silex-cache": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vlif\\Urlshortener\\": "src/"
+        }
     }
 }
