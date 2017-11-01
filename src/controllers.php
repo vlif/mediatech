@@ -130,7 +130,7 @@ $app->get('/gate/{shortUrl}', function ($shortUrl) use ($app) {
 // main page
 $app->get('', function () use ($app) {
 
-    return 'URL Shortener (ver 1.0)';
+    return 'URL Shortener (ver 2.0)';
 });
 
 //$app->match('{url}', function($url) {
